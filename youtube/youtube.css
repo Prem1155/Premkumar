@@ -1,0 +1,147 @@
+body {
+   background-color:rgb(230, 225, 224);
+}
+
+#header {
+
+   width: 15%;
+
+}
+
+#header1 {
+
+   float: right;
+   margin-top: -170px;
+   width: fit-content;
+   width: 85%;
+   height: 80px;
+}
+
+#header2 {
+   
+   width: 15%;
+  margin-top:-820px;
+
+}
+
+#header3 {
+
+   width: 15%;
+}
+
+
+.fa-bars {
+   width: 30px;
+   font-size: 20px;
+
+}
+
+.fa-youtube {
+   font-size: 25px;
+   width: 30px;
+   color: red;
+}
+
+.searchbox1 {
+   border-radius: 10px;
+   margin-left: 35%;
+   margin-top: 1%;
+   width: 500px;
+   height: 30px;
+   background-image: url(https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png),
+      url(https://simg.nicepng.com/png/small/5-55201_search-icon-png-grey.png);
+   background-repeat: no-repeat;
+   background-position: right 15px center, left 10px center;
+   background-size: 25px;
+
+}
+
+.fa-circle-user {
+   display: inline;
+   float: right;
+   font-size: 30px;
+   color: black;
+   margin-top: 1%;
+   margin-right: 30px;
+}
+
+.fa-bell {
+   display: inline;
+   float: right;
+   font-size: 30px;
+   color: black;
+   margin-top: 1%;
+   margin-right: 50px;
+}
+
+#header1 ul li {
+   display: inline;
+   border-width: 0px;
+   border: 5px black;
+   border-radius: 10px;
+   margin-right: 65px;
+   font-size: 17px;
+}
+
+#header3 a {
+   text-decoration: none;
+   font-size: 20px;
+   list-style-type: none;
+}
+
+#header4 a {
+   text-decoration: none;
+   font-size: 20px;
+   list-style-type: none;
+}
+
+#header img {
+   background-color: rgb(237, 234, 234);
+}
+
+#header3 img {
+   width: 10%;
+   height: auto;
+}
+
+#header a {
+   text-decoration: none;
+   font-size: 20px;
+}
+
+#header2 a {
+   text-decoration: none;
+   font-size: 20px;
+}
+
+a {
+   color: black;
+}
+
+#header4 img {
+   width: 1%;
+}
+
+* {
+   box-sizing: border-box;
+}
+
+.column {
+   float: right;
+   width: 25%;
+   margin-left: 40px;
+   padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+
+   content: "";
+   clear: both;
+   display: table;
+
+}
+
+p {
+   text-align: center;
+}

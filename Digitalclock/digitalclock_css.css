@@ -1,0 +1,46 @@
+@font-face {
+    font-family:digital-7;
+    src: url('digital-7.regular.ttf');
+}
+
+:root{
+    --light-color:hsl(43, 100%, 50%);
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    user-select: none;
+    cursor: pointer;
+}
+
+h2{
+    font-size:50px;
+    font-weight: 500;
+    color: hsl(43, 100%, 50%);
+}
+
+.frame{
+    width:500px;
+    height:250px;
+    background-color:black ;
+    border: 50px solid hsl(43, 100%, 50%);
+}
+
+.clock{
+    text-align: center;
+    line-height:240px;
+    font-size:80px;
+    font-weight: 500;
+    color:aliceblue;
+    text-shadow:0 0 20px var(--light-color);
+    font-family: digital-7;
+    position: relative;
+}
+
+
+
