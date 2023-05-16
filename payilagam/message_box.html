@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #intro1{
+            width:230px;
+            height: 150px;
+            border: 1px solid yellowgreen;
+            margin: 5px;
+            background-color: yellowgreen;
+        }
+        input{
+            padding: 3px;
+            margin-left: 4px;
+            width: 225px;
+            background-color: burlywood;
+            border-color: burlywood;
+        }
+        button{
+            width: 235px;
+            padding: 3px;
+            margin-left:4px;
+            margin-top: 4px;
+            font-size: medium;
+            font-weight: bold;
+            background-color: blue;
+            color: aliceblue;
+            border-color: blue;
+        }
+        button:hover{
+            color: black;
+            background-color: cornflowerblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Create a New Element </h1>
+
+    <div id="intro1">
+
+    </div>
+
+    <input type="text" id="ff1" placeholder="enter the text"><br>
+    <button onclick="create()">submit</button>
+
+    <script>
+        function create(){
+            value1 = document.getElementById("ff1").value;
+            element = document.createElement("p");
+            text = document.createTextNode(value1);
+            element.appendChild(text);
+            mydiv = document.getElementById("intro1");
+            mydiv.appendChild(element);
+            document.getElementById("ff1").value="";
+        }
+    </script>
+</body>
+</html>

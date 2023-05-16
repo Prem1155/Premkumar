@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .classname1{
+      color:brown;
+      background-color: blueviolet;
+      width:200px;
+      
+    }
+  </style>
+</head>
+<body>
+  <input type="text" name="name" placeholder="enter the name"><br>
+  <input type="text" name="name" placeholder="enter the id"><br>
+  <input type="text"  placeholder="enter the age"><br>
+  <button onclick="check()">submit</button>
+  
+  <p></p>
+  <p></p>
+  <p></p>
+  
+  </form>
+  
+<script>
+function check(){
+   data = document.getElementsByTagName("input");
+   box = document.getElementsByTagName("p");
+   for(i=0;i<data.length;i++){
+    box[i].className="classname1";
+   box[i].innerHTML = data[i].value;
+   }
+   
+}
+</script>
+</body>
+</html>

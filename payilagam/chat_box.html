@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chat box</title>
+    <style>
+        #container,#div{
+            display: flex;
+            background-color:gray;
+            width:46%;
+        }
+        #chatbox1{
+            border: 1px solid;
+            width: 250px;
+            height: auto;
+            border: none;
+        }
+        #chatbox2{
+            border: 1px solid;
+            width: 250px;
+            height: auto;
+            list-style-type: none;
+            background-image:url("https://i.pinimg.com/736x/de/4c/6e/de4c6e60744943ae2f65daad6cec7765.jpg");
+            font-weight: bolder;
+            font-size: 30px;
+        }
+        #chatbox3{
+            border: 1px solid ;
+            width: 250px;
+            height: auto;     
+            border:none;
+
+        }
+        img{
+            width:248px;
+            height:200px;
+            margin-top:-18px;
+        }
+        h2{
+            background-color: darkcyan;
+            color:aliceblue;
+            padding:4px;
+            margin-top:0;
+        }
+        button{
+            float: right;
+            margin-right:3px;
+            background-color: rgb(5, 231, 5);
+            border-color:  rgb(5, 231, 5);
+            height:22px;
+        }
+        input{
+            width:185px;
+            margin-left:2px;
+
+        }
+        .myclass{
+            color:whitesmoke;
+            float:right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Chat box by using Javascript</h1>
+    <div id="container">
+        <div id="chatbox1">
+            <h2>&#128515;Prem&#128517;</h2>
+            <img src="https://www.ixpap.com/images/2021/11/iPhone-Smiley-Face-Wallpaper.jpg" alt="">
+            <input type="text" id="box1" placeholder="enter the message">
+            <button onclick="sms()">send</button>
+        </div>
+        <div id="chatbox2"> </div>
+        <div id="chatbox3">
+            <h2>&#128517;Purushoth&#128518;</h2>
+            <img src="https://i.pinimg.com/originals/92/12/4c/92124c5e90558006994d45e3c0ec7755.png" alt="">
+            <input type="text" id="box2" placeholder="enter the message">
+            <button onclick="sms()">send</button>
+        </div>
+    </div>
+    <script>
+        function sms(){
+        bb1 = document.getElementById("box1").value;
+        bb2 = document.getElementById("box2").value;
+        element = document.createElement("li");
+        if(bb1 !=""){
+            text = document.createTextNode(bb1);
+            element.appendChild(text);
+            mydiv = document.getElementById("chatbox2");
+            element.style.color="white";
+            mydiv.appendChild(element);
+
+            document.getElementById("box1").value="";
+        }
+        else if(bb2 !=""){
+            text = document.createTextNode(bb2);
+            element.appendChild(text);
+            mydiv = document.getElementById("chatbox2");
+            element.className="myclass";
+            mydiv.appendChild(element);
+            document.getElementById("box2").value="";
+        }
+    }
+    </script>
+</body>
+</html>

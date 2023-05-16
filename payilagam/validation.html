@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-4">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form_validation</title> 
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="validation.css" />
+
+</head>
+<body>
+        <div class="container-fluid text-center">
+        <h1>Form validation</h1>
+        </div>
+
+        <div class="container">
+        <div class="row col-md-10" style="margin-top:30px">
+
+        <form class="form-horizontal" action="/action_page.php" autocomplete="off">
+
+                <div class="form-group">
+                <label class="control-label ">Name:</label>
+                <div class="">
+                <input id="id1" class="form-control bg-info" type="text" placeholder="Enter the name">
+                </div>
+                <div id="p1">
+                </div>
+                </div>
+
+                <div class="form-group">
+                <label class="control-label ">Mobile-number:</label>
+                <div class="">
+                <input id="id2" class="form-control" type="text" placeholder="Enter the Mobile-number">
+                </div>
+                <div id="p2">  
+                </div>
+                </div>
+
+                <div class="form-group">
+                <label class="control-label ">Email:</label>
+                <div class="">
+                <input id="id3" class="form-control bg-info" type="text" placeholder="Enter the Email ID"><br>
+                </div>
+                <div id="p3">
+                </div>
+                </div>
+
+                <div class="form-group">
+                <label class="control-label ">Password:</label>
+                <div class="">
+                <input id="id4" oninput="checkpass()" onmouseout="mouseout()" class="form-control bg-info" type="text" placeholder="Enter the Password">
+                <span id="span"></span>
+                </div>
+                <div id="p4">
+                </div>
+                </div>
+
+                <div class="form-group">
+                <div class="col-sm-offset-5">
+                <button type="submit" onclick="return check()" class="btn btn-primary">Submit</button>
+
+        </form>
+        </div>
+        </div>
+
+        <script src="validation.js"></script>
+</body>
+</html>

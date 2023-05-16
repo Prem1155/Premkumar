@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <style>
+        #box1 {
+            border: 1px solid yellowgreen;
+            width: 200px;
+            height: 40px;
+            background-color: yellowgreen;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            padding: 10px;
+        }
+
+        .btn1:hover {
+            color: red;
+            background-color: black;
+        }
+
+        .btn2:hover {
+            color: red;
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Javascript Timer</h1>
+    <p id="box1"></p><br>
+    <button class=btn1 onclick="start()">start</button>
+    <button class=btn2 onclick="stop()">stop</button>
+    <script>
+        function timing() {
+            date = new Date();
+            hour = date.getHours();
+            min = date.getMinutes();
+            sec = date.getSeconds();
+            time = date.toLocaleTimeString();
+            x = document.getElementById("box1");
+            x.innerHTML = time;
+
+            if (sec % 2 == 0) {
+                x.style.color = "red";
+            }
+            else {
+                x.style.color = "blue";
+            }
+        }
+        function start() {
+            clear = setInterval(timing, 1000);
+        }
+        function stop() {
+            clearInterval(clear);
+        }
+    </script>
+</body>
+
+</html>

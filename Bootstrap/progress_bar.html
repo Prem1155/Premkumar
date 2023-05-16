@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress-bar</title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1>default progress-bar and color</h1>
+                <div class="progress">
+                    <div class="progress-bar" style="width:50%">50%</div>
+                </div>
+                <h1>progress-bar-danger</h1>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-danger" style="width:50%">50%</div>
+                </div>
+                <h1>progress-bar-success</h1>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-success" style="width:50%">50%</div>
+                </div>
+                <h1>progress-bar-info</h1>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-info" style="width:50%">50%</div>
+                </div>
+                <h1>progress-bar-warning</h1>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-warning" style="width:50%">50%</div>
+                </div>
+                <h1>progress-bar-striped and active keyword for animation</h1>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-danger progress-bar-striped active" style="width:50%" >50%</div>
+                </div>
+                <h1>same line progress-bar</h1>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-danger" style="width:40%">40%</div>
+                    <div class="progress-bar progress-bar-success" style="width:30%">30%</div>
+                    <div class="progress-bar progress-bar-warning" style="width:30%">30%</div>
+                </div>
+                <h1>progress-bar role and aria properties</h1>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-warning" 
+                    role="progressbar" aria-valuemin="0" aria-valuemax="100"
+                    aria-valuenow="80" style="width:50%">50%</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
