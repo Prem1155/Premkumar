@@ -1,0 +1,36 @@
+form{
+    text-align: center;
+    padding: 30px;
+    margin: 3% 33%;
+    background-color: rgb(62, 140, 236);
+    width:27%;
+    height: 430px;
+}
+div{
+    background-color:whitesmoke ;
+    margin: 35px;
+    height: 300px;
+    padding: 30px;
+}
+input{
+    margin: 10px;
+    width: 70%;
+    height: 32px;
+    border: none;
+    border-radius: 5px;
+}
+.button{
+    width:70%;
+    height: 32px;
+    border: none;
+    background-color: rgb(62, 140, 236);
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+p,.a1{
+    color: aliceblue;
+    letter-spacing: 2px;
+}

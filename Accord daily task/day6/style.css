@@ -1,0 +1,90 @@
+table {
+    border-collapse: collapse;
+    border: 1px solid rgb(190, 187, 187);
+    padding: 30px !important;
+}
+
+th {
+    padding: 20px;
+    border-bottom: 1px solid black;
+   
+}
+
+th:hover {
+    background-color: rgb(6, 177, 6);
+    color: aliceblue;
+}
+
+#header2 {
+    background-color: rgb(32, 31, 31);
+    color: aliceblue;
+}
+#aside{
+    border-right: 1px solid black;
+}
+
+button {
+    float: right;
+    padding: 0px 10px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    border: whitesmoke;
+    border: none;
+}
+
+select{
+    border: none;
+    font-size: 20px;
+}
+select:hover{
+    background-color: rgb(6, 177, 6);
+    color: aliceblue;
+}
+
+
+h1{
+margin-left: 30px;
+}
+
+.home{
+    float: left;
+    margin-left: 95px;
+    background-color:  rgb(6, 177, 6);
+    color: white;
+    padding: 12px;
+}
+.next{
+    margin-right: 95px;
+    background-color:  rgb(6, 177, 6);
+    color: white;
+    padding: 12px;
+}
+
+p{
+ font-size: 40px;
+ padding: 15px;
+}
+ .btn1{
+     float: left;
+     padding: 20px;
+     background-color:  rgb(6, 177, 6);
+     color: white;
+     margin-left: 25px;
+ }
+.btn2{
+    margin-top: 20px;
+    margin-right: 550px;
+    padding: 20px;
+    background-color: rgb(42, 39, 39);
+    color: aliceblue;
+  
+}
+#footer{
+    padding:15px;
+    font-size: 25px;
+    background-color: rgb(42, 39, 39);
+    color: aliceblue;
+    font-weight: 700;
+    text-align: center;
+}

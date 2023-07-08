@@ -1,0 +1,38 @@
+<!----Create website using iframe-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+    table,tr,th,td{
+        border:2px solid black;
+        border-collapse: collapse;
+        padding: 10px;
+        width: 50%;
+    }
+   </style>
+</head>
+<body>
+    <table rules="all">
+        <tr>
+            <th colspan="4">website title</th>
+        </tr>
+        <tr>
+            <th><a href="http://127.0.0.1:5500/index1.html" target="file1">Home</a></th>
+            <th><a href="index2.html" target="file1">Education</a></th>
+            <th><a href="index3.html" target="file1">Hobbies</a></th>
+            <th><a href="https://www.wikipedia.org/" target="file1">contact</a></th>
+        </tr>
+        <tr>
+            <td colspan="4">
+                <iframe src="index1.html" width="100%" height="100%" name="file1" frameborder="0"></iframe>
+            </td>
+        </tr>
+        <tr>
+            <th colspan="4">Coprights &copy; 2023</th>
+        </tr>
+    </table>
+</body>
+</html>

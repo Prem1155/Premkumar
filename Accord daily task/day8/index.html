@@ -1,0 +1,118 @@
+<!--Create Job Application form for fresher’s using all input types (Min 15 type’s)-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <table id="table1">
+            <tr>
+                <th>JOB APPLICATION FORM</th>
+            </tr>
+            <tr id="t1">
+                <th><label>Date:</label><input id="date-t1" type="date"></th>
+            </tr>
+        </table>
+    </header>
+    <br>
+    <br>
+    <table id="table2">
+        <tr>
+            <th colspan="3">A.PERSONAL INFORMATION</th>
+        </tr>
+        <tr>
+            <td><label>1.Full Name:</label></td>
+            <td><input type="text" required></td>
+        </tr>
+        <tr>
+            <td colspan="2"><label>2.Sex:</label>
+                <input type="radio" id="radiobtn1" name="r1" value="HTML">
+                  <label for="radiobtn1">male</label>
+                  <input type="radio" id="radiobtn2" name="r1" value="CSS">
+                  <label for="radiobtn2">female</label>
+            </td>
+        </tr>
+        <tr>
+            <td><label>3.Height:</label></td>
+            <td><input type="number"></td>
+        </tr>
+        <tr>
+            <td><label>4.Weight:</label></td>
+            <td><input type="number"></td>
+        </tr>
+        <tr>
+            <td><label>5.Place and Birthdate:</label></td>
+            <td><input type="date"></td>
+        </tr>
+        <tr>
+            <td><label>6.Address:</label></td>
+            <td><textarea type="textarea"></textarea></td>
+        </tr>
+        <tr>
+            <td>
+                <label>7.Phone Number:</label>
+            </td>
+            <td><input type="text" minlength="10"
+                 maxlength="10" title="should be in numbers" 
+                 patter="[0-9]{10,10}">
+            </td>
+        </tr>
+        <tr>
+            <td><label>8.E-mail</label></td>
+            <td><input type="email" multiple></td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <table id="table3">
+        <tr>
+            <td colspan="4">B.POSITION </td>
+        </tr>
+        <tr>
+            <td><label>1.Position/Title:</label></td>
+            <td colspan="3">
+                <input type="text" list="position">
+                <datalist id="position">
+                    <option>UI developer</option>
+                    <option>TESTING</option>
+                    <option>JAVA developer</option>
+                    <option>DATA BASE MANAGEMENT</option>
+                </datalist>
+            </td>
+        </tr>
+        <tr>
+            <td><label>2.Availability</label></td>
+            <td colspan="3">
+                <input type="text" list="aval">
+                <datalist id="aval">
+                    <option>Morning</option>
+                    <option>AfterNoon</option>
+                    <option>Evening</option>
+                </datalist>
+            </td>
+        </tr>
+        <tr>
+            <td><label>3.Last Salary</label></td>
+            <td>
+                <input type="text">
+            </td>
+            <td><label> Expected Salary</label></td>
+            <td>
+                <input type="text" list="sal">
+                <datalist id="sal">
+                    <option>0 - 3 Lakhs</option>
+                    <option>3L - 5Lakhs</option>
+                    <option>5 lakhs Above</option>
+                </datalist>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>

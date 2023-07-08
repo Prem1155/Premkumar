@@ -1,0 +1,57 @@
+<!----create table with images-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Image table</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 2px solid black;
+            padding: 5px;
+            border-collapse: collapse;
+        }
+
+        tfoot {
+            text-align: center;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        .img1 {
+            width: 690px;
+            height: 90px !important;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="3"><a href="">Website Title</a></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="3"><img src="images/dice-2.png" alt="dice-2" class="img1" title="dice-3"></td>
+            </tr>
+            <tr>
+                <td><img src="images/dice-1.png" alt="dice-1" title="dice-1"></td>
+                <td><img src="images/dice-2.png" alt="dice-2" title="dice-2"></td>
+                <td><img src="images/dice-3.png" alt="dice-3" title="dice-3"></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Copyrights &copy; 2023</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>

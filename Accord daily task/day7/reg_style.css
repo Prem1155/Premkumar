@@ -1,0 +1,101 @@
+form{
+    text-align: center;
+    padding: 10px;
+    margin: 3% 33%;
+    background-color: aqua;
+    width:27%;
+
+}
+.names{
+    float: left;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.block1,.block2,.block3,.block4,.block5,
+.block6,.block7,.block8,.block9,.block10,
+.block11,.block12,.block13{
+    margin: 10px;
+    padding: 10px;
+}
+.block1 input{
+   height: 22px;
+    width:60%;
+    border: none;
+    margin-left: 11%;
+}
+.block2 input{
+    height: 22px;
+     width:60%;
+     border: none;
+     margin-right:4%;
+ }
+ .block3 input{
+    height: 22px;
+     width:60%;
+     border: none;
+     margin-right:7%;
+ }
+ #radioButton {
+    transform: scale(1.5);
+    width: 16px; 
+    height: 20px;
+    margin: 5px;
+  }
+.block4 label{
+    font-size: 25px;
+}
+.block5 select{
+    padding: 5px;
+    margin-right: 22%;
+    width:30%;
+}
+.block6 select{
+    padding: 5px;
+    margin-right: 28%;
+    width:30%;
+}
+.block7 select{
+    padding: 5px;
+    margin-right: 29%;
+    width:30%;
+}
+.block8 select{
+    padding: 5px;
+    margin-right: 24%;
+    width:30%;
+}
+.block9 input{
+    height: 22px;
+     width:60%;
+     border: none;
+     margin-left: 5%;
+ }
+ .block10 input{
+    height: 22px;
+     width:60%;
+     border: none;
+     margin-left: 6%;
+ }
+ .block11 input{
+    height: 22px;
+     width:60%;
+     border: none;
+     margin-left: 12%;
+ }
+ .block12 input{
+    height: 22px;
+     width:60%;
+     border: none;
+     margin-left: 1%;
+ }
+ .block13 input{
+    padding: 10px;
+    margin: 0px 15px;
+    font-size: 20px;
+    font-weight: 500;
+    border: 3px solid black;
+    border-radius: 5px;
+ }
+  
+ 

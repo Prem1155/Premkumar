@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#bg1 {
+    background-image: url(images/bg1.png);
+    background-repeat: no-repeat;
+    background-size: 100vw, 100vh;
+}
+
+
+/*****nav-bar******/
+
+.navs {
+    text-align: center;
+    background-color: darkcyan;
+    font-size: 25px;
+    font-weight: 400;
+    height: 70px;
+    width: 100vw;
+    padding-top: 20px;
+}
+
+.menus a {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px;
+    background-color: darkcyan;
+}
+
+.menus a:hover {
+    text-decoration: underline whitesmoke 2px;
+}
+
+/*****Heading*****/
+
+#content1 {
+    width: 100vw;
+    height: 100vh;
+    padding: 10px;
+}
+
+.heading {
+    color: rgb(255, 184, 52);
+    text-align: center;
+    text-decoration: underline;
+}
+
+.para {
+    padding: 10px;
+}
+
+.para p {
+    padding: 10px;
+    font-size: 25px;
+    color: aliceblue;
+}
+
+/*****Eduaction*****/
+
+#bg2 {
+    background-image: url(images/background.webp);
+    background-repeat: no-repeat;
+    background-size: 100vw, 100vh;
+}
+
+
+.aside-left {
+    background-color: rgb(169, 162, 162);
+    width: 20%;
+    height: 100vh;
+    margin-top: 0.3%;
+}
+
+.aside-right {
+    background-color: rgb(169, 162, 162);
+    width: 20%;
+    height: 100vh;
+    margin-left: 79.5%;
+    margin-top: -40.9%;
+}
+
+marquee {
+    height: 100vh;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+table,
+th,
+td {
+    border: 2px solid rgb(203, 197, 197);
+    border-collapse: collapse;
+    padding: 35px;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+
+
+}
+
+table {
+    margin-left: 21%;
+    width: 58%;
+    margin-top: -45%;
+
+
+}
+
+caption {
+    color: rgb(255, 184, 52);
+    text-decoration: underline;
+}
+
+thead {
+    color: rgb(0, 255, 0);
+}
+
+tbody {
+    color: aliceblue;
+}
+
+.foot {
+    width: 100vw;
+    background-color: darkcyan;
+    padding: 10px;
+    color: orange;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+/******skills********/
+
+#bg3 {
+    background-image: url(images/bg3.avif);
+    background-repeat: no-repeat;
+    background-size: 100vw, 100vh;
+}
+
+#skill-content {
+    padding: 10px;
+    margin: 40px;
+    justify-content: center;
+    display: flex;
+}
+
+#skill-content ul li {
+    font-size: 40px;
+    padding: 30px;
+    word-spacing: 10px;
+    color: whitesmoke;
+}
+
+/******Contact*****/
+ 
+#con-bg{
+ background-image: url(images/con1.jpg);
+ background-repeat: no-repeat;
+ background-size: 100vw 100vh;
+}
+.con-content {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    width:75%;
+    margin: 120px 0px 0px 60px;
+    background-image: url(images/con.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+    background-position: right;
+}
+
+.con-content form label {
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: whitesmoke;
+}
+
+.con-content form input {
+    display: flex;
+    height: 30px;
+    width: 500px;
+    border: none;
+    border-color: rgb(105, 105, 105);
+    background-color: rgb(213, 208, 208);
+    border-radius: 15px;
+    text-align: center;
+}
+
+#submit {
+    background-color: rgb(40, 190, 255);
+    border-radius: 18px;
+    border: none;
+    font-size: 20px;
+    width: 40%;
+    text-align: center;
+    justify-content: center;
+    margin-left: 30%;
+}
+
+/*******Resume******/
+
+embed{
+    width:100vw;
+    height:100vh;
+}
