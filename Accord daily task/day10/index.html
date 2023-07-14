@@ -1,0 +1,52 @@
+<!---Display content in center and apply background image for all 4 sides like below-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <style>
+        .box {
+            width:50%;
+            height: 60vh;
+            background-image: url('img1.jpg'), url('bg1.png'),
+             url('img1.jpg'), url('bg1.png');
+            background-repeat: repeat-x, repeat-y, repeat-x, repeat-y;
+            background-size: 100px 100px, 100px 100px, 100px 100px, 100px 100px;
+            background-position: top, 0%, bottom left, right;
+            align-items: center;
+            padding: 10px;
+        }
+        h1 {
+            margin-top: 90px;
+            padding: 10px;
+            color: blue;
+            text-decoration: underline;
+            text-align: center;
+        }
+
+        p {
+            margin-left: 17%;
+            padding: 20px;
+            text-align: justify;
+            width: 60%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <h1>Accord Online Class</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Dolorum voluptatum iusto soluta libero doloribus itaque odit
+            reiciendis placeat, fuga magnam amet expedita beatae accusamus
+            rem, saepe sapiente. Voluptatum, consequatur nemo!
+            Dolorum voluptatum iusto soluta libero doloribus itaque odit
+            reiciendis placeat, fuga magnam amet expedita beatae accusamus
+            rem, saepe sapiente. Voluptatum, consequatur nemo!</p>
+
+    </div>
+</body>
+
+</html>

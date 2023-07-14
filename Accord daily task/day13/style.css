@@ -1,0 +1,35 @@
+.block{
+   width: 500px;
+   height: 300px;
+   border: 1px solid black;
+}
+.A{
+    background-color: red;
+    width:140px;
+    height:140px;
+   position: relative;
+}
+.B{
+    background-color: green;
+    width:140px;
+    height:140px;
+    position: absolute;
+    left:100px;
+    top:50px;
+}
+.C{
+    background-color: blue;
+    width:140px;
+    height:140px;
+    position: absolute;
+    left:185px;
+    top:90px;
+}
+.D{
+    background-color: yellow;
+    width:140px;
+    height:140px;
+    position: relative;
+    left:260px;
+    top:-20px;
+}
