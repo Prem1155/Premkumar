@@ -1,0 +1,64 @@
+table,
+tr,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+table{
+    width: 600px;
+}
+
+th {
+    background-color: black;
+    color: aliceblue;
+}
+
+#row1,
+#row3,
+#row5 {
+    background-color: rgb(189, 183, 183);
+    color: rgb(156, 156, 156);
+}
+
+#row2,
+#row4 {
+    background-color: white;
+    color: rgb(156, 156, 156);
+}
+
+#row1:hover {
+    background-color: darkred;
+    color: aliceblue;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#row2:hover {
+    background-color: green;
+    color: aliceblue;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#row3:hover {
+    background-color: blueviolet;
+    color: aliceblue;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#row4:hover {
+    background-color: darkblue;
+    color: aliceblue;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#row5:hover {
+    background-color: indigo;
+    color: aliceblue;
+    text-align: center;
+    text-decoration: underline;
+}
