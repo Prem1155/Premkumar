@@ -1,0 +1,33 @@
+*{
+    cursor: pointer;
+    user-select: none;
+}
+div{
+    background-color: black;
+    width: 51.9%;
+    height: 200px;
+}
+
+p{
+    margin-top: 0px;
+    background-color: blue;
+   float: left;
+    padding: 10px; 
+}
+
+select{
+    float: left;
+    border: none;
+    background-color: blue;
+    height: 39px;
+  
+}
+select:hover{
+    background-color: aliceblue;
+    color: blue;
+   }
+   
+p:hover{
+ background-color: aliceblue;
+ color: blue;
+}

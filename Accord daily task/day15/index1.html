@@ -1,0 +1,30 @@
+<!--2) Create radio buttons for Gender. When user selects male, change label color as Blue and
+for female as pink.-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>types of selectors</title>
+    <style>
+        input[type=radio]:checked+label {
+            color: blue;
+            font-style: italic;
+            user-select: none;
+        }
+
+        input[value=female]:checked+label {
+            color: pink;
+            font-style: italic;
+            user-select: none;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="radio" name="btn" value="male"><label for="male">male</label>
+    <input type="radio" name="btn" value="female"><label for="female">female</label>
+</body>
+
+</html>

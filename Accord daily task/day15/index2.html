@@ -1,0 +1,42 @@
+<!--Create a login form. Apply background in blue color and text in white color only for
+submit button. Only when cursor in inside, background color of text boxes should be in pink
+color and border should be in red color.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>types of selector</title>
+    <style>
+        div{
+            display: block;
+            width: 50%;
+            padding: 20px;
+            background-color: lightblue;
+            
+        }
+        input{
+            margin: 10px 70px;
+            display: block;
+            width: 50%;
+            cursor: pointer;
+        }
+        input[type=button]:hover{
+            background-color: blue;
+            color: aliceblue;
+            border: none;
+        }
+        input:hover{
+            background-color: pink;
+            border-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <input type="text" placeholder="username">
+        <input type="password" placeholder="password">
+        <input type="button" value="submit">
+    </div>
+</body>
+</html>
