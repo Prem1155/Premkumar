@@ -1,0 +1,54 @@
+<!--3) Create responsive menu using media queries.
+Display Horizontal menu (Normal desktop view)-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mEDIA QUERIES</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        div {
+            margin: 5px;
+        }
+
+        div a {
+            display: inline-block;
+            background-color: black;
+            color: aliceblue;
+            padding: 10px;
+            text-decoration: none;
+        }
+
+        @media screen and (max-width: 780px) {
+            div a {
+                display: block;
+                background-color: black;
+                color: aliceblue;
+                padding: 10px;
+                text-decoration: none;
+                width: 30%;
+                border-bottom: 2px solid white;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Service</a>
+        <a href="">Portifolio</a>
+        <a href="">Contact</a>
+    </div>
+</body>
+
+</html>

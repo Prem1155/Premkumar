@@ -1,0 +1,40 @@
+<!--4) Move image into square shape automatically-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width:200px;
+            height:150px;
+            border: 2px solid black;
+            display:inline-block;
+        }
+        img{
+            width:30px;
+            height: 30px;
+        }
+        .b1 img{
+            transform: translate(20px,20px);
+        }
+        .b2 img{
+            transform: translate(150px,20px);
+        }
+        .b3 img{
+            transform: translate(150px,100px);
+        }
+        .b4 img {
+            transform: translate(20px,100px);
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="b1"><img src="bg.jfif"></div>
+    <div class="b2"><img src="bg.jfif"></div>
+    <div class="b3"><img src="bg.jfif"></div>
+    <div class="b4"><img src="bg.jfif"></div>
+</body>
+</html>

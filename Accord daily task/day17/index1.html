@@ -1,0 +1,58 @@
+<!--2) Display your name and apply all transform methods (Without hover option)-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        div {
+            width: 400px;
+            height: 200px;
+            border: 10px solid rgb(0, 0, 0);
+            margin: 20px;
+        }
+
+        h2 {
+            width: 40%;
+            padding: 5px;
+            position: relative;
+            left: 30px;
+            top: 80px;
+            background-color: aquamarine;
+            transform: rotateZ(50deg);
+            transition: all 2s;
+            /* transform: skew(10deg,180deg); */
+            /* transform: scaleX(20deg); */
+            /* transform-origin: right center; */
+        }
+
+        .blk {
+            position: relative;
+            left: 160px;
+            transform: rotateZ(130deg);
+            top: 40px;
+        }
+
+        /* h2:hover{
+            transition: all 2s ;
+            transform: rotateZ(50deg);
+        } */
+    </style>
+</head>
+
+<body>
+    <div>
+        <h2>EXPLORER</h2>
+        <h2 class="blk">EXPLORER</h2>
+    </div>
+
+</body>
+
+</html>
