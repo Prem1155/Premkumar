@@ -1,0 +1,32 @@
+<!-- Write program for Factorial number (Product of all integers less than or equal to n)
+Input: 5 Output: 120 (Steps: 1*2*3*4*5=120) -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factorial number</title>
+</head>
+
+<body>
+    <script>
+        // Prompt the user for input
+        var userInput = parseInt(prompt("Enter a number: "));
+
+        // Check if the input is a valid number
+        if (isNaN(userInput) || userInput < 0) {
+            console.log("Invalid input. Please enter a non-negative integer.");
+        } else {
+            // Calculate the factorial
+            var factorial = 1;
+            for (var i = 1; i <= userInput; i++) {
+                factorial *= i;
+            }
+            console.log("Factorial of " + userInput + " is " + factorial);
+        }
+
+    </script>
+</body>
+
+</html>

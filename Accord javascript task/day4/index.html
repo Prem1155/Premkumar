@@ -1,0 +1,28 @@
+<!--) Write a program to check given year is leap year or not -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+    // Prompt the user for input
+var userInput = parseInt(prompt("Enter a year: "));
+
+// Check if the year is a valid number
+if (isNaN(userInput)) {
+  console.log("Invalid input. Please enter a valid year.");
+} else {
+  // Check if the year is a leap year
+  if ((userInput % 4 === 0 && userInput % 100 !== 0) || userInput % 400 === 0) {
+    console.log(userInput + " is a leap year.");
+  } else {
+    console.log(userInput + " is not a leap year.");
+  }
+}
+
+   </script> 
+</body>
+</html>

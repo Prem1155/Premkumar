@@ -1,0 +1,32 @@
+<!--) Find smallest of three numbers using basic javascript-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smallest number</title>
+</head>
+<body>
+   <script>
+    // Prompt the user for input and convert to numbers
+var num1 = parseFloat(prompt("Enter the first number: "));
+var num2 = parseFloat(prompt("Enter the second number: "));
+var num3 = parseFloat(prompt("Enter the third number: "));
+
+// Check if any input is NaN (not a valid number)
+if (isNaN(num1) || isNaN(num2) || isNaN(num3)) {
+  console.log("Invalid input. Please enter valid numbers.");
+} else {
+  // Find the smallest number using conditional statements
+  if (num1 <= num2 && num1 <= num3) {
+    console.log(num1 + " is the smallest.");
+  } else if (num2 <= num1 && num2 <= num3) {
+    console.log(num2 + " is the smallest.");
+  } else {
+    console.log(num3 + " is the smallest.");
+  }
+}
+
+   </script> 
+</body>
+</html>

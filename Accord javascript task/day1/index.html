@@ -1,0 +1,62 @@
+<!--1) Print “Welcome to Javascript” in bold format using Javascript
+    2) Print confirmation value in console.
+    3) Create 5 different type of variable (integer, string, boolean, float, null) and print data type of values.
+    4) Get two numeric runtime values from user and add both value and print output in bold format like below-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // 1) Print “Welcome to Javascript” in bold format using Javascript.
+        console.log('%cWelcome to JavaScript', 'font-weight: bold;');
+
+        // 2) Print confirmation value in console.
+        var confirmmsg = 'Your confirmation value here';
+        confirm(confirmmsg);
+
+        // 3) Create 5 different type of variable (integer, string, boolean, float, null) and print data type of values.
+
+         // Integer
+         var myInteger = 42;
+        console.log("Type of myInteger:", typeof myInteger, myInteger);
+
+         // String
+        var myString = "Hello world!";
+         console.log("Type of myString:", typeof myString,myString);
+
+        // Boolean
+        var myBoolean = true;
+        console.log("Type of myBoolean:", typeof myBoolean,myBoolean);
+
+        // Float (JavaScript uses the 'number' type for both integers and floating-point numbers)
+        var myFloat = 3.14;
+        console.log("Type of myFloat:", typeof myFloat,myFloat);
+
+        // Null
+        var myNull = null;
+        console.log("Type of myNull:", typeof myNull,myNull);
+        
+        // 4) Get two numeric runtime values from user and add both value and print output in bold format like below
+
+        var inputValue1 = parseFloat(prompt("Enter the first numeric value:"));
+        var inputValue2 = parseFloat(prompt("Enter the second numeric value:"));
+
+        var sum = inputValue1 + inputValue2;
+
+        // Create a bold output using HTML formatting
+          const boldOutput = `<strong>OUTPUT:${sum}</strong>`;
+
+         // Display the result in a web page
+         document.write("Value of A is :",inputValue1,"<br>");
+        document.write("Value of B is :",inputValue2,"<br>");
+        document.write(boldOutput);
+        
+
+       
+    </script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!--4) Prime Number (It will be divide by 1 and the same number itself)
+Ex: 3, 7, 11, 13,....-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var num = parseInt(prompt("Enter the number"));
+        if (num > 1) {
+            if (num % 2 === 0)
+                document.write("Not a prime number");
+            else {
+                document.write(num + "is a  prime number");
+            }
+        }
+        else if (num <= 1) {
+            document.write("Number must be greater than one");
+        }
+
+    </script>
+</body>
+
+</html>

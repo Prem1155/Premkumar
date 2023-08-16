@@ -1,0 +1,21 @@
+<!--2) Fibonacci series (Starts with a 0 and 1 and proceeds based on the rule that each number is equal
+to the sum of the preceding two numbers)
+Ex: 0 1 2 3 5 8 13...-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var  num = parseInt(prompt("enter the number"));
+        temp = 1;
+         for(var i= 1; i<=num; i++){
+            temp = temp * i;
+         }
+         document.write(`Factorial of ${num} is ${temp}`);
+    </script>
+</body>
+</html>

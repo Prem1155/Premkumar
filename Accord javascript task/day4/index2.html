@@ -1,0 +1,50 @@
+<!--Print Grade based on marks
+Marks Grade
+100 O
+90-99 A
+80-89 B
+70-79 C
+60-69 D
+50-59 E
+Below 50 F-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       // Prompt the user for input
+var userInput = prompt("Enter your marks: ");
+
+// Convert the input string to a number
+var marks = parseFloat(userInput);
+
+// Check if the input is a valid number
+if (isNaN(marks)) {
+  console.log("Invalid input. Please enter a valid number.");
+} else {
+  // Determine the grade based on marks
+  var grade;
+  if (marks >= 100) {
+    grade = "O";
+  } else if (marks >= 90 && marks <= 99) {
+    grade = "A";
+  } else if (marks >= 80 && marks <= 89) {
+    grade = "B";
+  } else if (marks >= 70 && marks <= 79) {
+    grade = "C";
+  } else if (marks >= 60 && marks <= 69) {
+    grade = "D";
+  } else if (marks >= 50 && marks <= 59) {
+    grade = "E";
+  } else {
+    grade = "F";
+  }
+  console.log("Your grade is: " + grade);
+}
+    </script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Worklist Application</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <table>
+  <tr>
+    <th colspan=""><h1>Worklist Application</h1></th>
+  </tr>
+  <tr id="actions">
+    <th><button id="clearButton">Clear the Worklist</button></th>
+    <th><select id="categorySelect">
+      <option value="category1">Category 1</option>
+      <option value="category2">Category 2</option>
+      <option value="category3">Category 3</option>
+    </select></th>
+    <th><input type="text" id="workInput" placeholder="Enter work"></th>
+    <th><button id="addButton">Add Work</button></th>
+    <th><button id="changeTitleButton">Change Card Title</button></th>
+    <th><button id="deleteButton">Delete Work</button></th>
+  </tr>
+  <tr id="worklist">
+    <th class="card">
+      <h2>Category 1</h2>
+      <ul id="category1" class="work-items"></ul>
+    </th>
+    <th class="card">
+      <h2>Category 2</h2>
+      <ul id="category2" class="work-items"></ul>
+    </th>
+    <th class="card">
+      <h2>Category 3</h2>
+      <ul id="category3" class="work-items"></ul>
+    </th>
+  </tr>
+  </table>
+  <script src="script.js"></script>
+</body>
+</html>
