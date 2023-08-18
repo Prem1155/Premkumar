@@ -1,0 +1,31 @@
+.main{
+    background-color: rgb(98, 135, 135);
+}
+.container-fluid{
+    background-color: rgb(98, 135, 135);
+}
+.title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    text-transform:uppercase;
+}
+.needs-validation{
+    width:40%;
+    position: relative;
+    top:20px;
+    left:30%;
+    background-color: transparent;
+}
+label{
+    font-weight: 700;
+}
+input[type=text],input[type=date],input[type=email],input[type=tel]{
+    background-color:transparent;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.submit{
+    text-align: center;
+}
