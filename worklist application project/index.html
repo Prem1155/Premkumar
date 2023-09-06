@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Worklist Application</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Worklist Application</h1>
+    <div class="row mt-4 mb-2">
+      <div class="col-12 firstcol">
+        <div class="col-4">
+          <input class="form-control" id="workInput" type="text" placeholder="Enter work">
+        </div>
+        <div class="col-5">
+          <button type="button" id="addButton" class="btn btn-success">Add Work</button>
+        </div>
+        <div class="col-3 ">
+          <select id="categorySelect" class="form-select form-select-md mb-3">
+            <option selected>Select Work</option>
+            <option value="category1">EMPLOYEE_ID</option>
+            <option value="category2">EMPLOYEE_NAME</option>
+            <option value="category3">EMPLOYEE_EMAIL</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="row mb-4 seccal">
+      <div class="col-12 ">
+        <div id="worklist">
+          <div class="card col-3">
+            <h2>EMPLOYEE_ID</h2>
+            <ul id="category1" class="work-items"></ul>
+          </div>
+          <div class="card col-3">
+            <h2>EMPLOYEE_NAME</h2>
+            <ul id="category2" class="work-items"></ul>
+          </div>
+          <div class="card col-3">
+            <h2>EMPLOYEE_EMAIL</h2>
+            <ul id="category3" class="work-items"></ul>
+          </div>
+          <div class="col-12 thdcol">
+          <div class="col clear">
+            <button type="button" class="btn btn-secondary" id="clearButton"><i class="bi bi-x-octagon-fill"></i> &nbsp;Clear Worklist</button>
+          </div>
+          <div class="col Change">
+            <button type="button" id="changeTitleButton" class="btn text-white btn-warning"><i class="bi bi-card-list"></i> &nbsp;Change Card Title</button>
+          </div>
+          <div class="col del ">
+            <button type="button" id="deleteButton" class="btn btn-danger"><i class="bi bi-trash3"></i> &nbsp;Delete Work</button>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+     
+        
+    
+      </div>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
